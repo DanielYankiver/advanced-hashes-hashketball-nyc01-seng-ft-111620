@@ -140,6 +140,10 @@ def num_points_scored(player_lookup)
     end
   end 
 end  
+
+def shoe_size(player)
+  
+end 
   
 
   
