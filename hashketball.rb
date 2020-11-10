@@ -172,11 +172,12 @@ def player_numbers(team_name)
         if key == :players 
           value.each do |player|
           player_number_array << (player[:number])
+          binding.pry
         end
       end
     end
-    
-  
+  end
+  player_number_array
 end
   
   
