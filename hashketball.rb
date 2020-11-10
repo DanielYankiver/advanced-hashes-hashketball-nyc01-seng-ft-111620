@@ -138,9 +138,6 @@ def num_points_scored(player_lookup)
         return player[:points]
       end
     end
-    
-    
-    
   end 
 end  
   
