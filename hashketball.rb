@@ -131,10 +131,11 @@ end
 
 # Write code here
 
-def num_points_scored(player_name)
+def num_points_scored(player_lookup)
   game_hash.each do |team, team_data|
     team_data[:players].each do |player|
-      if player[:player_name] == player_name
+      if player[:player_name] == player_lookup
+        
     
     
     
