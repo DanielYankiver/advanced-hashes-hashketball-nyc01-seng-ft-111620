@@ -160,10 +160,7 @@ def team_colors(team)
 end 
 
 def team_names(team)
-  if team == "Brooklyn Nets"
-    game_hash[:home][:team_name]
-  else
-    game_hash[:away][:team_name]
+  game_hash.each do 
   end
 end 
   
