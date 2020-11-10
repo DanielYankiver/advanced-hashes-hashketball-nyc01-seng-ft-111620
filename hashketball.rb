@@ -152,7 +152,8 @@ def shoe_size(name)
 end 
   
 def team_colors(team)
-  
+  if team == "Brooklyn Nets"
+    team[]
 end 
   
   
