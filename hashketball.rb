@@ -163,7 +163,7 @@ def team_names
   game_hash.map do |team, team_|data
     team_data[:team_name]
     binding.pry
-  end
+  # end
 end 
   
   
