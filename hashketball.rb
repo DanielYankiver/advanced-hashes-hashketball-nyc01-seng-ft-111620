@@ -156,6 +156,7 @@ def team_colors(team)
     team[:home][:colors]
   else
     team[:away][colors]
+  end
 end 
   
   
