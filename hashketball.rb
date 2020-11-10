@@ -180,7 +180,7 @@ def player_numbers(team_name)
   end
   return player_numbers_list
 end
-  
+
   
 def player_stats(player_name)
   game_hash.each do |team, team_info|
