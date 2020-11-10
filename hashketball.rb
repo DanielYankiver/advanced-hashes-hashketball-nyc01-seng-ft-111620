@@ -159,7 +159,10 @@ def team_colors(team)
   end
 end 
 
-def team_names(teams)
+def team_names(team)
+  if team == 
+  
+end 
   
   
   
