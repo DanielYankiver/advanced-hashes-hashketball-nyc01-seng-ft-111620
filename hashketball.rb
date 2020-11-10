@@ -164,7 +164,6 @@ def team_names
     team_data[:team_name]
     binding.pry
   end
-  puts "hello"
 end 
   
   
