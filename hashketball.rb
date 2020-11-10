@@ -141,7 +141,8 @@ def num_points_scored(player_lookup)
   end 
 end  
 
-def shoe_size(player)
+def shoe_size(name)
+  game_hash.each do 
   
 end 
   
