@@ -172,11 +172,12 @@ def player_numbers(team_name)
         if key == :players 
           value.each do |player|
           player_numbers_list.push(player[:number])
+          end
         end
       end
     end
-    player_numbers_list
   end
+  player_numbers_list
 end
   
   
